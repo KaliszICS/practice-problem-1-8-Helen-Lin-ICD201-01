@@ -24,14 +24,15 @@ def q4():
   #Write Assignment code here
   word1 = input("Input food: ")
   word2 = input("Input drink: ")
-  bool = word1 != "pizza" and word2 != "pop"
+  bool = word1 != "pizza" or word2 != "pop"
   print(bool)
 
 def q5():
   #Write Assignment code here
   num = input("Enter an integer: ")
   num = int(num)
-  bool = (num%2) == 0
+  bool = num % 2 
+  bool == 0
   print (f"The integer {num} is {bool}")
 #Do not edit code after this
 #Comment out the followwing code when running tests
