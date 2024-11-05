@@ -10,7 +10,7 @@ def q2():
   #Write Assignment code here
   num = input("Enter an integer: ")
   num = int(num)
-  bool = (num > 0)
+  bool = num != 0
   print(bool)
 
 def q3():
