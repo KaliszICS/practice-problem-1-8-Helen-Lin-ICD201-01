@@ -22,14 +22,14 @@ def q3():
   
 def q4():
   #Write Assignment code here
-  word1 = input("Enter a food: ")
-  word2 = input("Enter a drink: ")
+  word1 = input("Input food: ")
+  word2 = input("Input drink: ")
   bool = word1 != "pizza" and word2 != "pop"
   print(bool)
 
 def q5():
   #Write Assignment code here
-  num = input("Input an integer: ")
+  num = input("Enter an integer: ")
   num = int(num)
   bool = (num%2) == 0
   print (f"The integer {num} is", (bool))
