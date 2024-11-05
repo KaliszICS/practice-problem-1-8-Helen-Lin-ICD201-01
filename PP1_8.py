@@ -10,36 +10,34 @@ def q2():
   #Write Assignment code here
   num = input("Enter an integer: ")
   num = int(num)
-  bool1 = (num > 0)
-  print(bool1)
+  bool = (num > 0)
+  print(bool)
 
 def q3():
   #Write Assignment code here
   num = input("Enter a number: ")
   num = float(num)
-  bool1 = num >= 0 and num <= 10
-  print(bool1)
+  bool = num >= 0 and num <= 10
+  print(bool)
   
 def q4():
   #Write Assignment code here
   word1 = input("Enter a food: ")
   word2 = input("Enter a drink: ")
-  bool1 = word1 != "pizza"
-  print(bool1)
-  bool1 = word2 != "pop"
-  print(bool1)
+  bool = word1 != "pizza" and word2 != "pop"
+  print(bool)
 
 def q5():
   #Write Assignment code here
   num = input("Input an integer: ")
   num = int(num)
-  bool1 = (num%2) == 0
-  print (f"The integer {num} is", (bool1))
+  bool = (num%2) == 0
+  print (f"The integer {num} is", (bool))
 #Do not edit code after this
 #Comment out the followwing code when running tests
 
-q1()
-q2()
-q3()
-q4()
-q5()
+#q1()
+#q2()
+#q3()
+#q4()
+#q5()
