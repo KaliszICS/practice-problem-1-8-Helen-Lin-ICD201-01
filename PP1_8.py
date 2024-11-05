@@ -32,8 +32,9 @@ def q5():
   num = input("Enter an integer: ")
   num = int(num)
   bool = num % 2 
-  bool = bool == 0
+  bool == 0
   print (f"The integer {num} is {bool}")
+
 #Do not edit code after this
 #Comment out the followwing code when running tests
 
